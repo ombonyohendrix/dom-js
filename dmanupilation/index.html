@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DOM</title>
+	</head>
+	<body>
+		<div>
+			<p>My name is Ombonyo Hendrix and i love coding in javascript.</p>
+		</div>
+		<h1>languages and awesomeness.</h1>
+		<table>
+			<tr>
+				<th>languages</th>
+				<th>awesomeness</th>
+			</tr>
+			<tr>
+				<td>javascript</td>
+				<td>100%</td>
+			</tr>
+			<tr>
+				<td>html</td>
+				<td>100%</td>
+			</tr>
+		</table>
+		<h1>Let's find the treasure</h1>
+		<div id="forest">
+			<div id="tree1">
+				<div id="squirrel"></div>
+				<div id="flower"></div>
+			</div>
+			<div id="tree2">
+				<div id="shrubbery">
+					<div id="treasure"></div>
+				</div>
+				<div id="mushroom">
+					<div id="bug"></div>
+				</div>
+			</div>
+		</div>
+		<h1>Welcome page</h1>
+		<p id="greeting">Hi!</p>
+		<div id="A"></div>
+		<div id="B"></div>
+		<div id="C"></div>
+		<div id="D"></div>
+		<div id="E"></div>
+		<script>
+			document.getElementById("A").innerText = "<strong>Ombonyo</strong>";
+			console.log(Node.ELEMENT_NODE);
+			console.log(Node.DOCUMENT_NODE);
+			console.log(Node.TEXT_NODE);
+			console.log(Node.ATTRIBUTE_NODE);
+			console.log(Node.DOCUMENT_FRAGMENT_NODE);
+			console.log(Node.DOCUMENT_TYPE_NODE);
+			for (let key in Node) {
+				console.log(`${key} = ${Node[key]}`);
+			}
+		</script>
+	</body>
+</html>

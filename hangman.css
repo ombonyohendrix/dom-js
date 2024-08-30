@@ -1,0 +1,20 @@
+.gameArea {
+	text-align: center;
+	font-size: 2em;
+}
+.box,
+.boxD {
+	display: inline-block;
+	padding: 5px;
+}
+.boxE {
+	display: inline-block;
+	width: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1.5em;
+}
+button {
+	display: block;
+	margin: Auto;
+}
